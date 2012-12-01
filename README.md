@@ -23,3 +23,9 @@ Example scenario:
 ## Documentation
 
 [fd on go.pkgdoc.org](http://go.pkgdoc.org/github.com/ftrvxmtrx/fd)
+
+## Build status
+
+<a href="http://goci.me/project/github.com/ftrvxmtrx/fd>
+<img src="http://goci.me/project/image/github.com/ftrvxmtrx/fd" />
+</a>
