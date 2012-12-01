@@ -24,7 +24,7 @@ import (
 	"syscall"
 )
 
-// Get receives file descriptors over Unix domain socket.
+// Get receives file descriptors from a Unix domain socket.
 //
 // Num specifies the expected number of file descriptors in one message.
 // Internal files' names to be assigned are specified via optional filenames
@@ -75,7 +75,7 @@ func Get(via *net.UnixConn, num int, filenames []string) ([]*os.File, error) {
 	return res, err
 }
 
-// Put file descriptors into Unix domain socket.
+// Put sends file descriptors to Unix domain socket.
 //
 // Please note that the number of descriptors in one message is limited
 // and is rather small.
