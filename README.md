@@ -22,10 +22,10 @@ Example scenario:
 
 ## Documentation
 
-[fd on go.pkgdoc.org](http://go.pkgdoc.org/github.com/ftrvxmtrx/fd)
+[fd on go.pkgdoc.org](http://go.pkgdoc.org/github.com/goerlang/fd)
 
 ## Build status
 
-<a href="http://goci.me/project/github.com/ftrvxmtrx/fd>
-<img src="http://goci.me/project/image/github.com/ftrvxmtrx/fd" />
+<a href="http://goci.me/project/github.com/goerlang/fd>
+<img src="http://goci.me/project/image/github.com/goerlang/fd" />
 </a>
