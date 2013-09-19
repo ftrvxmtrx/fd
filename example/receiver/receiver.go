@@ -2,7 +2,7 @@ package main
 
 import (
 	"flag"
-	"github.com/goerlang/fd"
+	"github.com/ftrvxmtrx/fd"
 	"io"
 	"log"
 	"net"
