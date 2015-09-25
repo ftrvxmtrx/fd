@@ -30,8 +30,10 @@ import (
 // Internal files' names to be assigned are specified via optional filenames
 // argument.
 //
-// Use net.FileConn() if you're receiving a network connection. Don't
-// forget to close the returned *os.File though.
+// You need to close all files in the returned slice. The slice can be
+// non-empty even if this function returns an error.
+//
+// Use net.FileConn() if you're receiving a network connection.
 func Get(via *net.UnixConn, num int, filenames []string) ([]*os.File, error) {
 	if num < 1 {
 		return nil, nil
